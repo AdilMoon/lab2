@@ -1,0 +1,24 @@
+
+create table 830room (
+id integer primary key,
+name text not null,
+surname text not null
+);
+
+insert into 830room values (1, 'adil', 'erdenbaev');
+insert into 830room values (2, 'aqan', 'muhtarbek');
+
+select min(id)
+from 830room;
+
+select max(id)
+from 830room;
+
+select count(id)
+from 830room;
+
+select sum(id)
+from 830room;
+
+select avg(id)
+from 830room;
